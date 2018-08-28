@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Taller 2</title>
+
+	<script src="proceso.js"></script>
+</head>
+<body>
+	<form id="form_taller" role="form" method="get" action="accion.php">
+	
+	<label>Codigo:</label>
+	<input type="text" name="codigo">
+	<br>
+	<br>
+	<label>Nombre:</label>
+	<input type="text" name="nombre">
+
+	<br>
+	<br>
+	<label>Apellido:</label>
+	<input type="text" name="apellido">
+
+	<br>
+	<br>
+	<label>Telefono:</label>
+	<input type="text" name="telefono">
+
+	<br>
+	<br>
+	<label>Email:</label>
+	<input type="text" name="email">
+
+	<br>
+	<br>
+	<label>Sexo:</label>
+	<select class="form-control" name="sexo">
+      <option value="M">M=Masculino</option>
+      <option value="F">F=Femenino</option>
+    </select>
+
+   	<br>
+	<br>
+	<label>Edad:</label>
+	<input type="text" name="edad">
+
+   	<br>
+	<br>
+	<label>Observaciones:</label>
+	<br>
+    <textarea rows="10" cols="30" name="observaciones"></textarea>
+
+	<br>
+	<br>
+	<button type="submit" id="id_enviar">Enviar</button>
+
+	</form>
+</body>
+</html>
